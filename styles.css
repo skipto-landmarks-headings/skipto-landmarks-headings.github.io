@@ -53,9 +53,9 @@ h1, h2 {
 }
 
 h2 {
-  border-radius: var(--radius-default);
-  color: var(--almost-white);
   background-color: var(--illini-blue);
+  color: var(--almost-white);
+  border-radius: var(--radius-default);
 }
 
 h3 {
