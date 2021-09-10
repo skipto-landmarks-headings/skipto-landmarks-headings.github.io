@@ -8,7 +8,7 @@ template.innerHTML = `
 `;
 
 const menuMap = new Map([
-  [ 'SkipTo Extension', 'extension.html' ],
+  [ 'SkipTo Extension', 'index.html' ],
   [ 'SkipTo Script', 'script.html' ],
   [ 'WCAG / ARIA', 'wcag-aria.html' ],
   [ 'About SkipTo', 'about.html' ]
