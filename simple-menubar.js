@@ -40,12 +40,17 @@ class SimpleMenubar extends HTMLElement {
   }
 
   connectedCallback () {
+    const innerHTML = this.innerHTML;
+
     // Get div container
     const div = this.shadowRoot.querySelector('nav > div');
 
     // Add menu items to div
     for (const [key, value] of menuMap) {
       let anchor = this.createAnchor(key, value);
+      if (innerHTML === value) {
+        anchor.ariaCurrent = value;
+      }
       div.appendChild(anchor);
     }
   }
