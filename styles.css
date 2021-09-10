@@ -41,20 +41,28 @@ header h1 {
   padding: 0.75rem 1rem;
 }
 
-h1, h2, h3, h4 {
+h1 { font-size: 160%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+
+h1, h2 {
   font-family: 'Montserrat', sans-serif;
   padding: 0.25rem 1rem;
 }
 
-h2, h3, h4 {
-  grid-column: 1;
+h2 {
   border-radius: var(--radius-default);
   color: var(--almost-white);
   background-color: var(--illini-blue);
 }
 
-h1 { font-size: 160%; }
-h2 { font-size: 120%; }
+h3 {
+  margin-top: 1rem;
+}
+
+h3:first-child {
+  margin-top: 0;
+}
 
 span.keyword {
   font-weight: bold;
