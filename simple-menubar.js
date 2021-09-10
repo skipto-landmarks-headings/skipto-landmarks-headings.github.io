@@ -2,9 +2,7 @@
 
 const template = document.createElement('template');
 template.innerHTML = `
-  <nav>
-    <div></div>
-  </nav>
+<div></div>
 `;
 
 const menuMap = new Map([
@@ -40,10 +38,10 @@ class SimpleMenubar extends HTMLElement {
   }
 
   connectedCallback () {
-    const innerHTML = this.innerHTML;
+    const innerHTML = this.innerHTML.trim();
 
     // Get div container
-    const div = this.shadowRoot.querySelector('nav > div');
+    const div = this.shadowRoot.querySelector('div');
 
     // Add menu items to div
     for (const [key, value] of menuMap) {
