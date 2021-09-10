@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SkipTo Documentation</title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SkipTo Documentation</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Overview</h2>
+      <div>
+        <p><span class="keyword">Skip to Landmarks and Headings</span> extends the web browser by providing a menu for easy navigation to the ARIA landmark regions and HTML section headings (h1–h6) of a web page.</p>
+        <p>The keyboard shortcut for opening the menu is <span class="keyword">ALT+2</span> (<span class="keyword">OPTION+2</span> on Macintosh) and cursors keys can be used to navigate the menu (see <span class="keyword">Keyboard Shortcuts</span> below). Activating a menu item (1) closes the menu, (2) scrolls the corresponding landmark region or heading element into view and (3) moves keyboard focus to it on the page.</p>
+        <p>The menu is divided into two separate groups of menu items: (1) <span class="keyword">Landmarks</span>: the important landmark regions and (2) <span class="keyword">Headings</span>: an outline of the heading structure found on the page.</p>
+        <p>The <span class="keyword">Landmarks</span> section of the menu may include the following landmarks (definitions are from the WAI-ARIA 1.3 specification):</p>
+        <ul>
+          <li><span class="keyword">main</span>: the main content of a document</li>
+          <li><span class="keyword">search</span>: a collection of items and objects that combine to create a search facility</li>
+          <li><span class="keyword">navigation</span>: a collection of navigational elements (usually links) for navigating the document or related documents</li>
+          <li><span class="keyword">complementary</span>: content that is designed to be complementary to the main content at a similar level in the DOM hierarchy, but remaining meaningful when separated from the main content</li>
+          <li><span class="keyword">contentinfo</span>: information about the parent document</li>
+        </ul>
+        <p>The <span class="keyword">Headings</span> section of the menu can be configured in <span class="keyword">Options/Preferences</span> to only include headings up to a maximum heading level. For example, a maximum level of 3 (the default) only displays headings with levels 1–3.</p>
+        <p><span class="keyword">Skip to Landmarks and Headings</span> provides a means for people using the keyboard to efficiently navigate to specific content on the page. The outline of headings provides an easy way for people to view the topics on a web page without having to scroll through the entire page.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Keyboard Shortcuts</h2>
+      <div>
+        <p>To open the <span class="keyword">Skip To</span> menu using the keyboard, press <span class="keyword">ALT+2</span> (<span class="keyword">OPTION+2</span> on the Macintosh).</p>
+        <p>You can move through the menu items by pressing the following keys:</p>
+        <ul>
+          <li><span class="keyword">arrow down</span>, <span class="keyword">arrow up</span>: step through the items one at a time</li>
+          <li><span class="keyword">page down</span>, <span class="keyword">page up</span>: move eight items forward or backward</li>
+          <li><span class="keyword">home</span>, <span class="keyword">end</span>: move to the first or last item</li>
+          <li><span class="keyword">m</span>: next main landmark</li>
+          <li><span class="keyword">n</span>: next navigation landmark</li>
+          <li><span class="keyword">s</span>: next search landmark</li>
+          <li><span class="keyword">a</span>: next complementary landmark</li>
+          <li><span class="keyword">c</span>: next contentinfo landmark</li>
+          <li><span class="keyword">1</span>, <span class="keyword">2</span>, <span class="keyword">3</span>, <span class="keyword">4</span>, <span class="keyword">5</span>, <span class="keyword">6</span>: next heading of that level</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

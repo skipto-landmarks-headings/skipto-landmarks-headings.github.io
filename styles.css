@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+header, h1, h2, h3, h4, div, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  --almost-white: #f3f3f3;
+  --border-values: 1px solid #ddd;
+
+  --cobalt: #1d4b90;
+  --default-text-color: #00132c;
+  --illini-blue: #13294b;
+  --illini-orange: #ff552e;
+
+  --link-highlight: #cad9ef;
+  --radius-default: 5px;
+}
+
+body {
+  color: var(--default-text-color);
+  background-color: var(--almost-white);
+  font-family: 'STIX Two Math', serif;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  max-width: 57rem;
+}
+
+header {
+  background-color: var(--illini-blue);
+  border-radius: var(--radius-default);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  color: var(--almost-white);
+  padding: 0.75rem 1rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.25rem 1rem;
+}
+
+h2, h3, h4 {
+  grid-column: 1;
+  border-radius: var(--radius-default);
+  color: var(--almost-white);
+  background-color: var(--illini-blue);
+}
+
+h1 { font-size: 160%; }
+h2 { font-size: 120%; }
+
+span.keyword {
+  font-weight: bold;
+}
+
+section {
+  margin: 1em 0;
+}
+
+section > div {
+  background-color: white;
+  border-right: var(--border-values);
+  border-bottom: var(--border-values);
+  border-left: var(--border-values);
+  padding: 1.5rem 1rem;
+}
+
+section > div > p {
+  margin-top: 1rem;
+}
+
+section > div > p:first-child {
+  margin-top: 0;
+}
