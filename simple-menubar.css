@@ -1,0 +1,22 @@
+/* simple-menubar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+  font-size: 16px;
+  --almost-white: #f3f3f3;
+}
+
+nav > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0.5rem 0 1.5rem 1rem;
+}
+
+nav > div > a {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: var(--almost-white);
+  font-family: 'Montserrat', sans-serif;
+}
