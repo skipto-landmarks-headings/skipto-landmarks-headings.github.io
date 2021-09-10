@@ -28,19 +28,19 @@ body {
   background-color: var(--almost-white);
   font-family: 'STIX Two Math', serif;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 1.5rem;
   max-width: 48rem;
 }
 
 header {
   background-color: var(--illini-blue);
   border-radius: var(--radius-default);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-header h1 {
+header h2 {
   color: var(--almost-white);
-  padding: 0.75rem 1rem;
+  padding: 1rem 1rem 0.5rem;
 }
 
 h1 { font-size: 160%; }
