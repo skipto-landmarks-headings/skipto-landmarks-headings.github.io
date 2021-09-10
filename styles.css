@@ -27,7 +27,7 @@ body {
   font-family: 'STIX Two Math', serif;
   margin: 0 auto;
   padding: 2rem 1.5rem;
-  max-width: 57rem;
+  max-width: 48rem;
 }
 
 header {
@@ -102,7 +102,7 @@ section > div a {
 
 table {
   padding: 1rem 2rem;
-  width: 80%;
+  width: 90%;
 }
 
 table th, table td {
