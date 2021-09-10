@@ -47,7 +47,7 @@ class SimpleMenubar extends HTMLElement {
     for (const [key, value] of menuMap) {
       let anchor = this.createAnchor(key, value);
       if (innerHTML === value) {
-        anchor.ariaCurrent = value;
+        anchor.ariaCurrent = 'page';
       }
       div.appendChild(anchor);
     }
