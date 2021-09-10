@@ -79,3 +79,29 @@ section > div > p {
 section > div > p:first-child {
   margin-top: 0;
 }
+
+section > div a {
+  color: var(--cobalt);
+}
+
+table {
+  padding: 1rem 2rem;
+  width: 80%;
+}
+
+table th, table td {
+  padding: 0.25rem 0.5rem;
+}
+
+table th {
+  text-align: left;
+}
+
+table td:first-child {
+  vertical-align: top;
+  width: 8rem;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
