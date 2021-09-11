@@ -10,7 +10,7 @@ template.innerHTML = `
 const menuMap = new Map([
   [ 'SkipTo Extension', 'index.html' ],
   [ 'SkipTo Script', 'script.html' ],
-  [ 'WCAG / ARIA', 'wcag-aria.html' ],
+  [ 'Why Use SkipTo?', 'why-skipto.html' ],
   [ 'About SkipTo', 'about.html' ]
 ]);
 

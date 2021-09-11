@@ -12,8 +12,8 @@ html {
 nav > div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap:  0.75rem;
-  padding: 0.25rem 1rem 1.125rem 12rem;
+  grid-column-gap:  0.5rem;
+  padding: 0.25rem 1rem 1.125rem 10rem;
 }
 
 nav > div > a {
@@ -23,6 +23,7 @@ nav > div > a {
   color: var(--almost-white);
   font-family: 'Montserrat', sans-serif;
   font-size: 0.825rem;
+  white-space: nowrap;
   padding: 0.25rem 0.5rem;
 }
 
