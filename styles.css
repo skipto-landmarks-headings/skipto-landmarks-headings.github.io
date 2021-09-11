@@ -28,14 +28,13 @@ body {
   background-color: var(--almost-white);
   font-family: 'STIX Two Math', serif;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
   max-width: 48rem;
 }
 
 header {
   background-color: var(--illini-blue);
   border-radius: var(--radius-default);
-  margin-bottom: 1.5rem;
 }
 
 header h2 {
@@ -50,6 +49,12 @@ h3 { font-size: 110%; }
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
   padding: 0.25rem 1rem;
+}
+
+h1 {
+  background-color: white;
+  border-radius: var(--radius-default);
+  margin-top: 1rem;
 }
 
 h2 {
