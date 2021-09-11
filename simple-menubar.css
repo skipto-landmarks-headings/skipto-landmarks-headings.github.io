@@ -13,7 +13,7 @@ nav > div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap:  1rem;
-  padding: 0.25rem 3rem 1.125rem;
+  padding: 0.25rem 1rem 1.125rem 12rem;
 }
 
 nav > div > a {
@@ -26,6 +26,8 @@ nav > div > a {
   padding: 0.25rem 0.5rem;
 }
 
+nav > div > a:focus,
+nav > div > a:hover,
 nav > div > a[aria-current] {
   color: var(--default-text-color);
   background-color: #cad9ef;
