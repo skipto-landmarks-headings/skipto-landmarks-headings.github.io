@@ -9,24 +9,24 @@ html {
   --radius-default: 5px;
 }
 
-div {
+nav > div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap:  1rem;
   padding: 0.25rem 3rem 1.125rem;
 }
 
-div > a {
+nav > div > a {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--almost-white);
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.825rem;
   padding: 0.25rem 0.5rem;
 }
 
-div > a[aria-current] {
+nav > div > a[aria-current] {
   color: var(--default-text-color);
   background-color: #cad9ef;
   border-radius: var(--radius-default);
