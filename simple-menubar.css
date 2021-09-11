@@ -12,7 +12,7 @@ html {
 nav > div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap:  1rem;
+  grid-column-gap:  0.75rem;
   padding: 0.25rem 1rem 1.125rem 12rem;
 }
 
