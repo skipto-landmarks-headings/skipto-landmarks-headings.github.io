@@ -9,11 +9,17 @@ html {
   --radius-default: 5px;
 }
 
+nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
 nav > div {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap:  0.5rem;
-  padding: 0.25rem 1rem 1.125rem 10rem;
+  padding: 0.25rem 1rem 1.125rem;
 }
 
 nav > div > a {

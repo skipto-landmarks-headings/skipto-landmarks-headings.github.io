@@ -9,8 +9,8 @@ template.innerHTML = `
 
 const menuMap = new Map([
   [ 'SkipTo Extension', 'index.html' ],
-  [ 'SkipTo Script', 'script.html' ],
-  [ 'Why Use SkipTo?', 'why-skipto.html' ],
+  // [ 'SkipTo Script', 'script.html' ],
+  [ 'Why SkipTo?', 'why-skipto.html' ],
   [ 'About SkipTo', 'about.html' ]
 ]);
 
