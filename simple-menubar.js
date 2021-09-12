@@ -9,9 +9,9 @@ template.innerHTML = `
 
 const menuMap = new Map([
   [ 'SkipTo Extension', 'index.html' ],
-  // [ 'SkipTo Script', 'script.html' ],
-  [ 'Why SkipTo?', 'why-skipto.html' ],
-  [ 'About SkipTo', 'about.html' ]
+  [ 'SkipTo Script',    'script.html' ],
+  [ 'Why SkipTo?',      'why-skipto.html' ],
+  [ 'About SkipTo',     'about.html' ]
 ]);
 
 class SimpleMenubar extends HTMLElement {
