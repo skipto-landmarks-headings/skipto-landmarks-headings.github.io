@@ -11,15 +11,15 @@ header, h1, h2, h3, h4, div, p, ul, li {
 
 html {
   font-size: 16px;
-  --almost-white: #f3f3f3;
-  --border-values: 1px solid #ddd;
 
-  --cobalt: #1d4b90;
+  --almost-white: #f3f3f3;
   --default-text-color: #00132c;
   --illini-blue: #13294b;
   --illini-orange: #ff552e;
+  --link-background: #cad9ef;
+  --link-color: #1d4b90;
 
-  --link-highlight: #cad9ef;
+  --border-defaults: 1px solid #ddd;
   --radius-default: 5px;
 }
 
@@ -89,9 +89,9 @@ section {
 
 section > div {
   background-color: white;
-  border-right: var(--border-values);
-  border-bottom: var(--border-values);
-  border-left: var(--border-values);
+  border-right: var(--border-defaults);
+  border-bottom: var(--border-defaults);
+  border-left: var(--border-defaults);
   padding: 1.5rem 1rem;
 }
 
@@ -104,7 +104,19 @@ section > div > p:first-child {
 }
 
 section > div a {
-  color: var(--cobalt);
+  color: var(--link-color);
+}
+
+section > div a:focus,
+section > div a:hover {
+  background-color: var(--link-background);
+  color: var(--default-text-color);
+  outline: 2px solid var(--link-background);
+  text-decoration: none;
+}
+
+section > div a:focus {
+  outline: 2px solid var(--illini-orange);
 }
 
 section > div ul {

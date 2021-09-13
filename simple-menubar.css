@@ -6,6 +6,7 @@ html {
   font-size: 16px;
   --almost-white: #f3f3f3;
   --default-text-color: #00132c;
+  --illini-orange: #ff552e;
   --radius-default: 5px;
 }
 
@@ -30,7 +31,7 @@ nav > div > a {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.825rem;
   white-space: nowrap;
-  padding: 0.25rem 0.5rem;
+  padding: calc(3px + 2px) calc(6px + 2px);
 }
 
 nav > div > a:focus,
@@ -40,4 +41,10 @@ nav > div > a[aria-current] {
   background-color: #cad9ef;
   border-radius: var(--radius-default);
   text-decoration: none;
+}
+
+nav > div > a:focus {
+  outline: none;
+  border: 2px solid var(--illini-orange);
+  padding: 3px 6px;
 }
