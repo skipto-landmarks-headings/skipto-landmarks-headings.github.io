@@ -75,8 +75,12 @@ details > summary {
   font-size: 110%;
 }
 
-details:not(first-of-type) {
+details {
   margin-top: 1rem;
+}
+
+details:first-child {
+  margin-top: 0;
 }
 
 details > p {
