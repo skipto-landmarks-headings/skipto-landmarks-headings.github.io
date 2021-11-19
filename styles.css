@@ -71,6 +71,18 @@ h3:first-child {
   margin-top: 0;
 }
 
+details > summary {
+  font-size: 110%;
+}
+
+details:not(first-of-type) {
+  margin-top: 1rem;
+}
+
+details > p {
+  margin-top: 1rem;
+}
+
 span.keyword {
   font-weight: bold;
 }
