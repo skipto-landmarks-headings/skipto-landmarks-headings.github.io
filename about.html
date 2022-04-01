@@ -13,6 +13,25 @@
   <main>
     <h1>About SkipTo</h1>
     <section>
+      <h2>FAQ</h2>
+      <div>
+        <details>
+          <summary>Why doesn't SkipTo display all types of landmarks?</summary>
+          <p>The primary goal of SkipTo is to provide structural navigation for keyboard-only users to what are generally considered the important landmarks and top-level headings on a page. We realize that choosing the 'important' landmarks is something of a judgement call, but we also believe it is important to keep the Landmarks portion of the menu as simple as possible to enhance usability.</p>
+          <p>For these reasons, the following landmarks are intentionally omitted from the menu: 'banner', 'form' and 'application'. We omit the 'banner' region, because (1) it is almost always at the top of the page, and thus easily reachable via the keyboard shortcut 'Home', and (2) we feel it would be the most likely region that keyboard-only users would want to skip over.</p>
+        </details>
+        <details>
+          <summary>Why aren't the landmarks in document order?</summary>
+          <p>For reasons similar to those cited above for omitting certain landmarks, we have prioritized the order in which landmarks appear in the menu using a simple set of heuristics.</p>
+          <ul>
+            <li>The 'main' landmark is always first because it contains the main content on the page, and there is typically only one of them.</li>
+            <li>The 'search' landmark, when present, is second in the list to make it easily reachable in the menu, and again there are typically only one or two of them.</li>
+            <li>The 'navigation' landmarks are next because we feel these should also be very easy to find when moving item by item through the list of landmarks.</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+    <section>
       <h2>Contributors</h2>
       <div>
         <h3>SkipTo Extension</h3>
@@ -33,25 +52,6 @@
           <li><a href="https://github.com/mdkocher">Marc Kocher</a> (<a href="https://twitter.com/marckocher" rel="nofollow">@marckocher</a>)</li>
           <li><a href="https://github.com/vick08">Victor Tsaran</a> (<a href="https://twitter.com/vick08" rel="nofollow">@vick08</a>)</li>
         </ul>
-      </div>
-    </section>
-    <section>
-      <h2>FAQ</h2>
-      <div>
-        <details>
-          <summary>Why doesn't SkipTo display all types of landmarks?</summary>
-          <p>The primary goal of SkipTo is to provide structural navigation for keyboard-only users to what are generally considered the important landmarks and top-level headings on a page. We realize that choosing the 'important' landmarks is something of a judgement call, but we also believe it is important to keep the Landmarks portion of the menu as simple as possible to enhance usability.</p>
-          <p>For these reasons, the following landmarks are intentionally omitted from the menu: 'banner', 'form' and 'application'. We omit the 'banner' region, because (1) it is almost always at the top of the page, and thus easily reachable via the keyboard shortcut 'Home', and (2) we feel it would be the most likely region that keyboard-only users would want to skip over.</p>
-        </details>
-        <details>
-          <summary>Why aren't the landmarks in document order?</summary>
-          <p>For reasons similar to those cited above for omitting certain landmarks, we have prioritized the order in which landmarks appear in the menu using a simple set of heuristics.</p>
-          <ul>
-            <li>The 'main' landmark is always first because it contains the main content on the page, and there is typically only one of them.</li>
-            <li>The 'search' landmark, when present, is second in the list to make it easily reachable in the menu, and again there are typically only one or two of them.</li>
-            <li>The 'navigation' landmarks are next because we feel these should also be very easy to find when moving item by item through the list of landmarks.</li>
-          </ul>
-        </details>
       </div>
     </section>
     <section>
