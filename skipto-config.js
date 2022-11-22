@@ -3,7 +3,8 @@
 var SkipToConfig =  {
     headings: 'main h1 h2',
     positionLeft: '44rem',
-    fontSize: '14px',
+    fontSize: '12px',
+    fontFamily: '"Montserrat", sans-serif',
     menuTextColor: '#00132c',
     menuBackgroundColor: '#cad9ef',
     menuitemFocusTextColor: '#eeeeee',
