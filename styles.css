@@ -44,10 +44,11 @@ header h2 {
 }
 
 h1 { font-size: 165%; }
-h2 { font-size: 120%; }
-h3 { font-size: 110%; }
+h2 { font-size: 125%; }
+h3 { font-size: 115%; }
+h4 { font-size: 100%; }
 
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   padding: 0.25rem 1rem;
 }
@@ -66,10 +67,17 @@ h2 {
 
 h3 {
   margin-top: 1rem;
+  padding: 0.25rem 0;
+  color: var(--illini-blue);
+  background-color: white;
 }
 
 h3:first-child {
   margin-top: 0;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 details > summary {
@@ -116,7 +124,8 @@ section > div > p {
   margin-top: 1rem;
 }
 
-section > div > p:first-child {
+section > div > p:first-child,
+section > div > h4+p {
   margin-top: 0;
 }
 

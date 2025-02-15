@@ -9,7 +9,7 @@ template.innerHTML = `
 
 const menuMap = new Map([
   [ 'SkipTo Extensions', 'index.html' ],
-  [ 'SkipTo.js Version 5',    'https://skipto-landmarks-headings.github.io/page-script-5/.html' ],
+  [ 'SkipTo.js Version 5',  'script.html' ],
   [ 'Why SkipTo?',      'why-skipto.html' ],
   [ 'About SkipTo',     'about.html' ]
 ]);
