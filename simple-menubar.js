@@ -8,8 +8,8 @@ template.innerHTML = `
 `;
 
 const menuMap = new Map([
-  [ 'SkipTo Extension', 'index.html' ],
-  [ 'SkipTo Script',    'script.html' ],
+  [ 'SkipTo Extensions', 'index.html' ],
+  [ 'SkipTo.js Version 5',    'https://skipto-landmarks-headings.github.io/page-script-5/.html' ],
   [ 'Why SkipTo?',      'why-skipto.html' ],
   [ 'About SkipTo',     'about.html' ]
 ]);
