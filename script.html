@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SkipTo Script: Documentation</title>
+  <title>SkipTo Extensions: Documentation</title>
   <meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h2>SkipTo Documentation</h2>
-    <simple-menubar>script.html</simple-menubar>
+    <h2>SkipTo.js Documentation</h2>
+    <simple-menubar>index.html</simple-menubar>
   </header>
   <main>
-    <h1>SkipTo Script</h1>
-    <section>
-      <h2>Overview</h2>
-      <div>
-        <p>The SkipTo script is a replacement for the old school “Skip to Main” link. When the pages of a website load the script, it creates a menu button with a drop-down menu that contains links to important landmarks and headings on the current page.</p>
+    <h1>SkipTo.js</h1>
+      <section>
+        <h2>SkipTo.js Page Script</h2>
+        <div>
+          <p>
+            <a href="https://skipto-landmarks-headings.github.io/page-script-5/page-script.html">SkipTo.js page script </a> is a replacement for the classic “Skip To Main Content” link for implementing the WCAG 2.4.1 Bypass Blocks requirement. The page script creates a drop-down menu consisting of the links to important landmarks and headings on a given web page.
+          </p>
 
-        <p>Once installed and configured, the menu makes it easier for keyboard, voice recognition and screen reader users to quickly jump to the desired location by simply choosing it from the list of menu items.</p>
+          <h3>Features</h3>
+            <ul>
+               <li>Easy and powerful way to conform to the “<a href="https://www.w3.org/TR/WCAG/#bypass-blocks">Bypass Blocks</a>” requirement of the <a href="https://www.w3.org/TR/WCAG/">Web Content Accessibility Guidelines</a>.</li>
+               <li>Screen reader users can get a higher level navigation menu without having to use the screen reader landmark and header navigation commands which typically include longer lists of lower level headings and less used landmarks.</li>
+               <li>Keyboard only users can more efficiently navigate to content on a page.</li>
+               <li>Speech recognition users can use the menu to more efficiently navigate to content on a page.</li>
+               <li>When the “Skip To Content” menu button is visible when the page is loaded everyone can use it to identify and navigate to important regions on a page.</li>
+               <li>Authors can configure SkipTo.js to identify the most important regions, ideally about 7-12 items to make it easier for people to read the list and choose an option.  Remember the more items, the longer it will take for the user to identify which item they want to choose.</li>
+            </ul>
+        </div>
 
-        <h3>Benefits of SkipTo</h3>
-        <ul>
-          <li><em>All users</em> can get an outline of the major content areas on the page.</li>
-          <li><em>Screen reader</em> users can get a higher level navigation menu without having to use the screen reader landmark and header navigation commands, which typically include longer lists of lower level headings and less-used landmarks.</li>
-          <li><em>Keyboard-only</em> users can more efficiently navigate to content on a page.</li>
-          <li><em>Speech recognition</em> users can use the menu to more efficiently navigate to content on a page.</li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h2>Installation</h2>
-      <div>
-        <p>Installing the SkipTo script can be as simple as linking to a content delivery network (CDN), which always provides the most up-to-date version.</p>
+        <h2>SkipTo.js Browser Extensions</h2>
+        <div>
+          <p>
+            <a href="https://skipto-landmarks-headings.github.io/page-script-5/extensions.html">SkipTo.js browser extensions</a> fill a void in browsers to provide the navigation features to meet WCAG 2.4.1 Bypass Blocks requirement and keyboard shortcuts to navigate to landmark regions and headings. The extension creates a drop-down menu of the landmark regions and headings on the current web page. Selecting an option in the menu or using a shortcut key moves keyboard focus to the landmark region or heading and scrolls the content into view. The menu also provides a convenient table of contents of what is on the page for ALL users.
+          </p>
+          <p>
+            Additional <a href="https://skipto-landmarks-headings.github.io/page-script-5/shortcuts.html">keyboard shortcuts</a> provide sequential navigation to landmark regions and headings. Similar to how the TAB sequentially navigates for controls and links.
+          </p>
+          <ul style="margin-bottom: 2em">
+            <li><a href="https://chromewebstore.google.com/detail/skiptojs-for-chrome/mgmnhfooeifhicajoeoamlchoadbioof?hl=en">SkipTo.js for Chrome</a></li>
+            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/skipto-js-for-firefox/">SkipTo.js for Firefox</a></li>
+            <li><a href="https://addons.opera.com/en/extensions/details/skiptojs-for-opera/">SkipTo.js for Opera</a></li>
+          </ul>
 
-        <p>When configuration options other than the default values are desired, each page that loads the script will need an additional bit of JavaScript that specifies those options.</p>
+        <h2>Source Code</h2>
+        <p>SkipTo.js is open source software. The code is available at <a href="https://github.com/skipto-landmarks-headings/page-script-5/">https://github.com/skipto/extension</a>.</p>
 
-        <h3>More Information</h3>
-        <ul>
-          <li><a href="https://skipto-landmarks-headings.github.io/page-script-5">SkipTo Version 5 (current version): Installation and Configuration</a></li>
-          <li><a href="https://github.com/paypal/skipto">SkipTo Version 4 (previous version)</a></li>
-        </ul>
-      </div>
+        </div>
+      </section>
+
     </section>
   </main>
   <footer>
-    <p>Copyright &copy; 2022 University of Illinois Urbana-Champaign</p>
+    <p>Copyright &copy; 2025 University of Illinois Urbana-Champaign</p>
   </footer>
   <script src="simple-menubar.js"></script>
+  <script src="skipto-config.js"></script>
+  <script src="https://skipto-landmarks-headings.github.io/page-script-5/dist/skipto.js"></script>
 </body>
 </html>
