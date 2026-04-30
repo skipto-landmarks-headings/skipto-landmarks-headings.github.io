@@ -1,0 +1,179 @@
+
+          <div id="options">
+
+            <figure class="image">
+               <img src="./images/feature-options.png"
+                    alt=""/>
+                    <figcaption>Screen Shot of Options Dialog Box in Side Panel</figcaption>
+            </figure>
+
+            <h2 id="highlight">Highlight</h2>
+
+            <table class="table table-striped shortcuts" aria-labelledby="highlight">
+               <thead>
+                  <tr>
+                     <th>Option</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                    <td>Highlight follows focus</td>
+                    <td>
+                      <ul>
+                        <li>When enabled (<em>default</em>) the user moves focus between items in the heading, landmarks and links tabs, the associated item on the page will be scrolled into view and highlighted automatically. </li>
+                        <li>Some people may want to disable automatic highlighting if the scolling is a distraction or disorientation.</li>
+                        <li>When automatic highlighting is <em>disabled</em>, use the <kbd>space</kbd> or <kbd>enter</kbd> key to scoll the associated item into view.</li>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>Border Size</td>
+                    <td>
+                      Sets the width of the border used to highlight items on the web pages.  The following sizes are available:
+                      <ul>
+                        <li>small</li>
+                        <li>medium</li>
+                        <li>large (<em>default</em>)</li>
+                        <li>x-large</li>
+                        <li>xx-large</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Border Style</td>
+                    <td>
+                      The style used for the border.  The following styles are available:
+                      <ul>
+                        <li>solid</li>
+                        <li>dashed (<em>default</em>)</li>
+                        <li>dotted</li>
+                      </ul>
+                    </td>
+                  </tr>
+               </tbody>
+             </table>
+
+            <h2 id="landmarks">Landmark and Heading Filters</h2>
+
+            <table class="table table-striped shortcuts" aria-labelledby="landmarks">
+               <thead>
+                  <tr>
+                     <th>Option</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                    <td>Show hidden and off-screen headings.</td>
+                    <td>
+                      <ul>
+                        <li>Some authors add headings only intended for use by screen readers by making them very small or moving them off-screen.</li>
+                        <li>Some screen readers detect these techniques and do not include the headings in their list of headings to reduce the number of heading users have to listen too.</li>
+                        <li>The filter mimics screen readers in not showing the small and off-screen headings.</li>
+                        <li><em>Default</em> is disabled.</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Show regions without accessible names</td>
+                    <td>
+                      <ul>
+                        <li>
+                          Authors often inadvertently create landmarks by using html elements like <code>aside</code> (e.g. complementary) or <code>nav</code> (e.g. navigation).
+                        </li>
+                        <li>
+                          Screen readers filter out landmarks if there is more than one of the same type of landmark (e.g. complementary or navigation) and the landmark <em>does not</em> have an accessible name.
+                        </li>
+                        <li><em>Default</em> is disabled.</li>
+                      </ul>
+                    </td>
+                  </tr>
+               </tbody>
+             </table>
+
+            <h2 id="links">Link Filters</h2>
+
+            <table class="table table-striped shortcuts" aria-labelledby="landmarks">
+               <thead>
+                  <tr>
+                     <th>Option</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                    <td>Show internal links</td>
+                    <td>
+                      <ul>
+                        <li>Internal links scroll content on the current page into view.</li>
+                        <li>
+                          When enabled internal links are included in the list of links.
+                        </li>
+                        <li><em>Default</em> is enabled</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Show same sub-domain links</td>
+                    <td>
+                      <ul>
+                        <li>
+                          Same sub-doman (ssd) links go to other web pages in the same website.
+                        </li>
+                        <li>
+                          When enabled <abbr title="same sub0domain">ssd</abbr> links are included in the list of links.
+                        </li>
+                        <li><em>Default</em> is enabled</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Show same domain links</td>
+                    <td>
+                      <ul>
+                        <li>
+                          Same doman (sd) links go to other web pages in another part of the organizations website.
+                        </li>
+                        <li>
+                          When enabled <abbr title="same domain">sd</abbr> links are included in the list of links.
+                        </li>
+                        <li><em>Default</em> is enabled</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Show external links</td>
+                    <td>
+                      <ul>
+                        <li>
+                          External links go to a different website.
+                        </li>
+                        <li>
+                          When enabled external links are included in the list of links.
+                        </li>
+                        <li><em>Default</em> is enabled</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Show non-html extension links</td>
+                    <td>
+                      <ul>
+                        <li>Some links can be identified as non-html links by looking at the file extension in the URL.</li>
+                        <li>
+                          When file extensions correspond to common PDF, document or media types they will be identified as links to non-html documents.
+                        </li>
+                        <li>
+                          Links to non-html documents will require testing for accessibility.
+                        </li>
+                        <li>
+                          When enabled links with non-html file extensions are included in the list of links.
+                        </li>
+                        <li><em>Default</em> is enabled</li>
+                      </ul>
+                    </td>
+                  </tr>
+               </tbody>
+             </table>
+
+

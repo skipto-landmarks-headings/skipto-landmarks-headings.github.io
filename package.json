@@ -1,0 +1,42 @@
+{
+  "name": "SkipTo.js Landmark and Heading Documentation",
+  "description": " quickly skip to the most important places on the webpage.",
+  "version": "1.0",
+  "keywords": [
+    "SkipTo.js",
+    "WCAG 4.2.1 Bypass Blocks",
+    "Headings",
+    "Landmark Regions"
+  ],
+  "homepage": "skipto-landmarks-headings.github.io",
+  "author": "Jon Gunderson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skipto-landmarks-headings/skipto-landmarks-headings.github.io"
+  },
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/opena11y/web-page-table-of-contents/blob/main/LICENSE.md"
+    }
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "641457dfeksdfjlsjdljasdfba5ba2a65ce0c33ac411b7",
+  "main": "Gruntfile.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "Mozilla Public License Version 2.0",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-install": "^1.1.0",
+    "stream": "^0.0.2"
+  }
+}

@@ -1,0 +1,65 @@
+
+              <section id="headings" class="feature">
+
+                <figure class="image">
+                   <img src="./images/feature-headings.png"
+                        alt=""/>
+                        <figcaption>Screen Shot of Headings Tab selected</figcaption>
+                </figure>
+
+                <h2>Feature</h2>
+
+                <ul>
+                  <li>
+                    The first tab provides a <a href="https://www.w3.org/WAI/ARIA/apg/patterns/treeview/">tree view</a> of the heading (e.d. the <code>h1</code>,  <code>h2</code>,  <code>h3</code>,  <code>h4</code>  <code>h5</code> and  <code>h6</code> elements) structure of a web page.
+                  </li>
+                  <li>
+                    Each tree item provides the heading level and the <a href="https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/">accessible name</a> used by screen readers.
+                  </li>
+                  <li>
+                    The tree items are indented based on their heading level.
+                  </li>
+                  <li>
+                    Headings level 3 and higher are initially hidden in the tree.
+                  </li>
+                  <li>
+                    Note: Some authors add hidden or off-screen headings that are intended only for screen reader users and cannot be seen in the graphical rendering.  These headings are not included in the list of headings by default.  This mimics the behavior of many screen readers to reduce the number of headings users have to navigate.  This feature can be disabled in <a href="./options.html">options</a>.</li>
+                  </li>
+                </ul>
+
+                <h2>Accessibility Considerations</h2>
+
+                <ul>
+                  <li>
+                    <em>Descriptive:</em> Verify <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/">headings</a> accurately reflect the content they introduce. For example, a heading "Ingredients" should be followed by a list of ingredients, not instructions on how to prepare them.
+                  </li>
+                  <li>
+                    <em>Logical Hierarchy:</em>  Verify headings are used in a hierarchical order, typically starting with <code>h1</code> for the main page title, followed by <code>h2</code> for main sections, <code>h3</code> for subsections, and so on. Avoid skipping heading levels (e.g., going directly from <code>h1</code> to <code>h3</code>).
+                  </li>
+                  <li>
+                    <em>Unique Headings:</em>  Verify headings in the same sub-section are unique. This prevents confusion for users, especially those using screen readers, who rely on headings for navigation.
+                  </li>
+                  <li>
+                    <em>Concise and Clear:</em>  Verify headings are relatively short and to the point, avoiding overly long or complex phrasing.
+                  </li>
+                  <li>Related WCAG Requirements:
+                    <ul>
+                      <li>
+                        <a href="https://www.w3.org/WAI/WCAG22/quickref/#qr-content-structure-separation-programmatic"><strong>1.3.1</strong> Info and Relationships:</a> Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text. (Level&nbsp;A)
+                      </li>
+                      <li>
+                        <a href="https://www.w3.org/WAI/WCAG22/quickref/#qr-navigation-mechanisms-skip"><strong>2.4.1</strong> Bypass Blocks:</a> A mechanism is available to bypass blocks of content that are repeated on multiple Web pages. (Level&nbsp;A)
+                      </li>
+                      <li>
+                        <a href="https://www.w3.org/WAI/WCAG22/quickref/#qr-navigation-mechanisms-descriptive"><strong>2.4.6</strong> Headings and Labels:</a> Headings and labels describe topic or purpose. (Level&nbsp;AA)
+                      </li>
+                      <li>
+                        <a href="https://www.w3.org/WAI/WCAG22/quickref/#qr-navigation-mechanisms-headings"><strong>2.4.10</strong> Section Headings:</a> Section headings are used to organize the content. (Level&nbsp;AAA)
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="https://www.w3.org/WAI/tutorials/page-structure/headings/">W3C WAI Tutorials on Headings</a></li>
+                </ul>
+
+              </section>
+

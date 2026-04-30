@@ -1,0 +1,60 @@
+
+
+              <section id="links" class="feature">
+
+                <figure class="image">
+                   <img src="./images/feature-links.png"
+                        alt=""/>
+                        <figcaption>Screen Shot of Links Tab selected</figcaption>
+                </figure>
+
+                <h2>Feature</h2>
+                <ul>
+                  <li>
+                    The third tab provides a <a href="https://www.w3.org/WAI/ARIA/apg/patterns/grid/">grid view</a> of the links of a web page.
+                  </li>
+                  <li>
+                    Each row has four columns providing information on:
+                    <ol>
+                      <li>The position of the link on the page.</li>
+                      <li>The <a href="https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/">accessible name</a> of the link.</li>
+                      <li>If the link has an <a href="https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/">accessible description</a>.</li>
+                      <li>Information on the domain name of URL or file extensions.</li>
+                    </ol>
+                  </li>
+                  <li>Checkbox to highlight all headings on a page.</li>
+                  <li>Checkbox to include accessible name as part of the highlight.</li>
+                  <li>Button to open a dialog of options to filter links based on domain information.</li>
+                </ul>
+
+                <h2>Link Filter Options</h2>
+
+                <figure class="image">
+                   <img src="./images/feature-link-filters.png"
+                        alt=""/>
+                        <figcaption>Screen Shot of links filter dialog box options</figcaption>
+                </figure>
+
+                <h2>Accessibility Considerations for Links</h2>
+
+                <ul>
+                  <li><em>Avoid generic phrases:</em> Verify links do not use phrases like "click here," "read more," or "learn more." or the URL as the link text.</li>
+                  <li><em>Provide context:</em> Verify the link text clearly indicates the link's destination or purpose.  For example instead of "click here," use "Download the report" or "Register for the event".</li>
+                  <li><em>Concise and unique:</em> Verify link text is short but still informative. Each link should have unique text, especially if it leads to different locations.</li>
+                  <li>Related WCAG Requirements:
+                    <ul>
+                      <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html">2.4.4: Link Purpose (In Context) (Level A)</a></li>
+                      <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only">2.4.9: Link Purpose (Link Only) (Level AAA)</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="https://webaim.org/techniques/hypertext/">WebAim: Links and Hypertext</a></li>
+                </ul>
+
+                <h2 id="type-examples">Example domain name or file extension information</h3>
+
+                {% include "./link-types.njk" %}
+
+
+
+              </section>
+

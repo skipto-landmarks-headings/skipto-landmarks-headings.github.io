@@ -1,0 +1,137 @@
+
+          <div id="options">
+
+            <figure class="image">
+               <img src="./images/feature-export.png"
+                    alt=""/>
+                    <figcaption>Screen Shot of Export Dialog Box in Side Panel</figcaption>
+            </figure>
+
+            <h2 id="info">Information On</h2>
+
+            <table class="table table-striped shortcuts" aria-labelledby="info">
+               <thead>
+                  <tr>
+                     <th>Option</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                    <td>
+                      Headings
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Each row in the CSV file for headings includes:
+                          <ol>
+                            <li>
+                              <em>Order:</em> The document order of the heading in the web page.
+                            </li>
+                            <li>
+                              <em>Heading Level:</em> The heading level of the heading, values are 1, 2, 3, 4, 5 and 6.
+                            </li>
+                            <li>
+                              <em>Accessible Name:</em> The computed accessible name for the heading.  This is usually just the text content, but the use of images, <code>aria-label</code> or <code>aria-labelledby</code> will require use of the <a href="https://www.w3.org/TR/accname/">accessible name computation</a>.
+                              </li>
+                          </ol>
+                        </li>
+                        <li>
+                          Un-check the checkbox to <strong>not</strong> include heading information on the CSV file.
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Landmark Regions
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Each row in the CSV file for landmark regions includes:
+                          <ol>
+                            <li>
+                              <em>Order:</em> The document order of the landmark in the web page.
+                            </li>
+                            <li>
+                              <em>Landmark Type:</em> The type of landmark, values include:
+                              <ul>
+                                <li><code>banner</code></li>
+                                <li><code>complementary</code></li>
+                                <li><code>contentinfo</code></li>
+                                <li><code>form</code></li>
+                                <li><code>main</code></li>
+                                <li><code>navigation</code></li>
+                                <li><code>region</code></li>
+                                <li><code>search</code></li>
+                              </ul>
+                            </li>
+                            <li>
+                              <em>Accessible Name:</em> The computed accessible name for the landmark region using the <a href="https://www.w3.org/TR/accname/">accessible name computation</a>  Landmarks only need an accessible name when there is more than one of the same type on a web page.
+                            </li>
+                          </ol>
+                        </li>
+                        <li>
+                          Un-check the checkbox to <strong>not</strong> include landmark region information on the CSV file.
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Links
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Each row in the CSV file for links includes:
+                          <ol>
+                            <li>
+                              <em>Order:</em> The document order of the link in the web page.
+                            </li>
+                            <li>
+                              <em>Link Type:</em>  The link type identifies information about the domain name or the file name of the link.
+
+                              {% include "./link-types.njk" %}
+
+                            </li>
+                            <li>
+                              <em>URL:</em>  The URL associated with the link.
+                            </li>
+                          </ol>
+                        </li>
+                        <li>
+                          Un-check the checkbox to <strong>not</strong> include link information on the CSV file.
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+               </tbody>
+             </table>
+
+            <h2 id="filename">Filename</h2>
+
+            <table class="table table-striped shortcuts" aria-labelledby="filename">
+               <thead>
+                  <tr>
+                     <th>Option</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                    <td style="width: 7em">File Name</td>
+                    <td>
+                      The file name for the CSV file.  There are file naming restrictions to make sure characters in the file name are supported on Windows, macOS and Linux and that file names are not too long.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Index</td>
+                    <td>
+                      The index is appended to the CSV file name to make it easier to create unique file names if downloading multiple CSV files. The index is automatically incremented after saving a CSV file.
+                    </td>
+                  </tr>
+               </tbody>
+             </table>
+          </div>
+        </div>
+

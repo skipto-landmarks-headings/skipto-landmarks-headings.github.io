@@ -1,0 +1,42 @@
+        <header>
+          <!-- Navigation-->
+          <nav class="navbar
+               navbar-expand-lg"
+               aria-label="Primary"
+               id="mainNav">
+              <div class="container px-4">
+                  <span class="brand">
+                    <span class="icon">
+                      <img src="./images/h2l-128-light.png" alt="Icon for Headings, Landmarks and Links Side Panel">
+                    </span>
+                    <span class="version">
+                      Version {{version}}
+                    </span>
+                  </span>
+
+                  <button class="navbar-toggler"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#mainNavbar"
+                          aria-controls="mainNavbar"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto">
+
+                    {{ navigation | safe }}
+
+                    </ul>
+                  </div>
+              </div>
+          </nav>
+          <div class="tagline">
+            <div class="container px-4" >
+              {{tagLineName}}
+            </div>
+          </div>
+       </header>
+
+

@@ -1,0 +1,68 @@
+
+
+              <section id="landmarks" class="feature">
+                <h2>Landmarks Tab</h2>
+                <figure class="image">
+                   <img src="./images/feature-landmarks.png"
+                        alt=""/>
+                        <figcaption>Screen Shot of Landmark Tab selected</figcaption>
+                </figure>
+
+                <h2>Feature</h2>
+                <ul>
+                  <li>
+                    The second tab provides a <a href="https://www.w3.org/WAI/ARIA/apg/patterns/listbox/">list view</a> of the landmark regions of a web page.
+                  </li>
+                  <li>
+                    Each list item provides the type of landmark region (e.g. <code>main</code>, <code>navigation</code>...) and the <a href="https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/">accessible name</a> when defined.
+                  </li>
+                  <li>
+                    Note: If there are more than one landmark regions of the same type without accessible names, the landmarks are not included in the list by default.  This mimics the behavior of many screen readers.  This feature can be disabled in <a href="./options.html">options</a>.
+                  </li>
+                </ul>
+
+                <h2>Accessibility Considerations</h2>
+
+                <ul>
+                  <li>
+                    <em>Identify Regions:</em> Verify <a href="https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/">landmark regions</a> accurately identify all of the logical areas of the web page.  The visual layout and styling of the page, including spacing, borders, background colors and alignment can be used in identifying landmark regions.
+                  </li>
+                  <li>
+                    <em>Appropriate Type:</em> Verify the type of landmark represents the content in the region.  For example the main region contains the primary content of the wbe page.
+                  </li>
+                  <li>
+                    <em>Unique and Concise Names:</em> Landmark regions only need accessible names when there is more than one landmark of the same.  For example, if their are two navigation regions, each region should have an accessible name that describes the types of navigation links in the region.
+                  </li>
+                  <li>Related WCAG Requirements:
+                    <ul>
+                      <li>
+                        <a href="https://www.w3.org/TR/WCAG22/#info-and-relationships" target="_spec">
+                        Success Criterion 1.3.1 Info and Relationships
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" target="_spec">
+                          Success Criterion 2.4.1 Bypass Blocks
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" target="_spec">
+                          Success Criterion 2.4.6 Headings and Labels
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.w3.org/TR/WCAG22/#section-headings" target="_spec">
+                          Success Criterion 2.4.10 Section Headings
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/">W3C ARIA Authoring Practices for Landmark Regions</a>.
+                  </li>
+
+                </ul>
+
+
+              </section>
+
